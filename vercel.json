@@ -7,6 +7,10 @@
     {
       "source": "/api/icons/:path*",
       "destination": "https://openweathermap.org/img/wn/:path*"
+    },
+    {
+      "source": "/((?!api/).*)",
+      "destination": "/index.html"
     }
   ]
 }

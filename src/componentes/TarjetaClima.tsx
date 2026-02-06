@@ -15,7 +15,7 @@ export const TarjetaClima = ({ datosClima }: TarjetaClimaProps) => {
       <div className="tarjeta-principal">
         {/*// URL de OpenWeatherMap para obtener iconos del clima correspondiente. Rewrite aplicado */}
         <img
-          src={`/api/icons${datosClima.icono}@4x.png`}
+          src={`/api/icons/${datosClima.icono}@4x.png`}
           alt={datosClima.descripcion}
           className="tarjeta-icono"
         />
